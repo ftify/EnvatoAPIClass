@@ -322,7 +322,7 @@ class Envato {
 	}
 	
 	function author_sales($page) {
-		$url = 'v2/market/author/sales';
+		$url = 'v3/market/author/sales';
 		$parameters = array('page' => $page);
 		$result = $this->curl_get_data($url,$parameters);
 		$data = json_decode($result, true);
@@ -330,7 +330,7 @@ class Envato {
 	}
 	
 	function buyer_purchase_by_code($purchase_code) {
-		$url = 'v2/market/buyer/purchase';
+		$url = 'v3/market/buyer/purchase';
 		$parameters = array('code' => $purchase_code);
 		$result = $this->curl_get_data($url,$parameters);
 		$data = json_decode($result, true);
@@ -338,7 +338,7 @@ class Envato {
 	}
 	
 	function buyer_purchases($page) {
-		$url = 'v2/market/buyer/purchases';
+		$url = 'v3/market/buyer/purchases';
 		$parameters = array('page' => $page);
 		$result = $this->curl_get_data($url,$parameters);
 		$data = json_decode($result, true);
@@ -355,7 +355,7 @@ class Envato {
 	
 	
 	function user_collection_by_id($id) {
-		$url = 'v2/market/user/collection';
+		$url = 'v3/market/user/collection';
 		$parameters = array('id' => $id);
 		$result = $this->curl_get_data($url,$parameters);
 		$data = json_decode($result, true);
@@ -364,7 +364,7 @@ class Envato {
 	
 	
 	function user_collections() {
-		$url = 'v2/market/user/collections';
+		$url = 'v3/market/user/collections';
 		$result = $this->curl_get_data($url);
 		$data = json_decode($result, true);
 		return $data;
