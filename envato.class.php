@@ -295,14 +295,14 @@ class Envato {
 		$url = 'v1/market/private/user/username.json';
 		$result = $this->curl_get_data($url);
 		$data = json_decode($result, true);
-		return $data;
+		return $data['username'];
 	}
 	
 	function user_email() {
 		$url = 'v1/market/private/user/email.json';
 		$result = $this->curl_get_data($url);
 		$data = json_decode($result, true);
-		return $data;
+		return $data['email'];
 	}
 	
 	function item_details_by_id($item_id) {
