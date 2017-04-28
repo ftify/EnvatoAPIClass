@@ -1,7 +1,7 @@
 # EnvatoAPIClass
 Envato API PHP Class
 
-```javascript
+```php
 $client_id = 'your-client-id-here';
 $client_secret = 'your-client-secret-here';
 $redirect_uri = 'http://yoursite.com/process.php';
