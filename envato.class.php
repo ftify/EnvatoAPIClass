@@ -2,10 +2,10 @@
 /**
 * Class Name:			Envato API PHP Class
 * Description:			Envato API PHP wrapper to deal with Envato API endpoints.
-* Version:				1.0.0
-* Author:				Roudy Hermez
-* Author URI:			http://roudy.ca
-* License:				MIT
+* Version:			1.0.0
+* Author:			Roudy Hermez
+* Author URI:			https://teedesk.com
+* License:			MIT
 * License URI:			https://opensource.org/licenses/MIT
 */
 
